@@ -6,6 +6,6 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
     <h1>hello ${name} tienes ${age}</h1>
   </div>
-`;
+`; 
 
 setupCounter(document.querySelector<HTMLButtonElement>("#counter")!);
