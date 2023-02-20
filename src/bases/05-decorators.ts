@@ -14,7 +14,8 @@ class NewPokemon {
 }
 
 const MyDecorator = () => {
-    return ( target: Function ) => {
+    //* Here the argument is the definition of the class that have the decorator
+    return ( {/* target: Function */} ) => {
         //* We can return other definition of class and overwrite this class with the decorator
         return NewPokemon;
     }
